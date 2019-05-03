@@ -33,6 +33,17 @@ header {
     text-align: center;
     justify-content: center;
     padding-bottom: 10%;
+    line-height: 5rem;
+    transition: background-color .2s ease-out;
+}
+
+.close-landing {
+  padding: 20px 100px 100px 100px;
+  /*background-color: rgb(14, 180, 83);*/
+}
+.close-landing:hover{
+  background-color: rgb(53, 208, 247);
+  transition: background-color .2s ease-in-out;
 }
 
 #line {

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CJ May</title>
+    <link rel="icon" type="image/jpeg" href="images/cjSEI.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="style/styles.css">
+
+</head>
+<body>
+    <header id="top">
+        <div class="landing" id="landing">
+            <div class="close-landing z-depth-2">
+                <h4>Hello, I'm CJ.</h4>
+                <h4>I'm a ...</h4>
+                <!-- Dropdown Trigger -->
+                <a class='dropdown-trigger waves-effect btn-large' href='#' data-target='dropdown1'>Contact Me!<i class="material-icons right">arrow_drop_down</i></a>
+            </div>
+            
+            <!-- Dropdown Structure -->
+            <ul id='dropdown1' class='dropdown-content'>
+                <li><a href="index.html">Developer</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="photographer.html">Photographer</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="videographer.html">Videographer</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="nerd.html">Nerd</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="line" >
+        <svg height="2" width="95%">
+            <line x1="0" y1="0" x2="100%" y2="0" style="stroke:rgb(0,0,0);stroke-width:3" />
+        </svg>
+    </div>
+    
+    <div class="scroll-down"></div>
+    <div class="navbar" id="navbar">
+        <a href="#" id="spnTop">Home</a>
+        <a href="contact.html">Contact</a>
+        <!--<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>-->
+    </div>
+    <div class="row content">
+        <div class="col s12 center">
+        <div>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        </div>
+        </div>
+    </div>
+    
+    <div id="footer" class="center">
+        <div class="footer-links">
+            <a href="contact.html">Contact Me</a>
+        </div>
+        <div class="copy">
+            &copy2019 CJ May
+        </div>
+        <div class="footer-links">
+            <a href="nerd.html">Just Nerd Things</a>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script>
+    console.log('hi');
+    var dropped = false;
+    $(document).ready(function() {
+        
+        console.log('loaded');
+        
+        
+        $(".wrapper-dropdown-2").click(function() {
+            dropped = true
+            $(".dropdown").css("opacity", "100").css("margin", "0");
+        });
+
+    });
+    </script>   
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="javascript/scripts.js"></script>
+</body>
+</html>
