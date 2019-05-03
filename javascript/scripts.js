@@ -35,3 +35,27 @@ $('#spnTop').on("click",function(){
   $('html,body').animate({ scrollTop: 0 }, 'slow', function () {});
   }); 
   
+
+$(".reg-form").validate({
+  rules: {
+    mint_is_best: {
+      equalTo: "#password"
+    },
+      },
+      //For custom messages
+      messages: {
+          mint_is_best:{
+              equalTo: "Um, ew, wrong. Pick again."
+          },
+      },
+      errorElement : 'div',
+      errorPlacement: function(error, element) {
+        console.log("help")
+        var placement = $(element).data('error');
+        if (placement) {
+          $(placement).append(error)
+        } else {
+          error.insertAfter(element);
+        }
+  }
+});
